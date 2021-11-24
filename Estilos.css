@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body{
+    background-size: auto;
+    color: black;
+    font-family: Tillana; 
+}
+header{
+    background-color: #4EF0C0;
+    color: black;
+    justify-items: center;
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo p a{
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Tillana;
+    justify-content: center;
+}
+
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Tillana;
+}
+/*aca resaltamos el menu navegador, cuando pase el puntero del mouse se vea en color blanco*/
+nav ul li a:hover{
+color: white;
+}
+@font-face{
+    font-family: Tillana;
+    src: url(../Fuentes/Tillana-Medium.ttf)
+}
+.foto_inicio{
+    background-size:cover;
+}
+.footer{
+    background-color: #4EF0C0;
+    align-items: center;
+}
+.SocialLinks{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    min-width: 4fr;
+}
+.OuterFooter{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
